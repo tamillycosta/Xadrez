@@ -1,2 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+
+namespace Xadrez;
+using System;
+using Tabuleiro;
+
+class Xadrez{
+
+    static void Main(string[] args){
+        Tabuleiro tab = new Tabuleiro(8,8);
+    }
+}
+
+
