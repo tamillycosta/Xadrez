@@ -14,4 +14,8 @@ class Tabuleiro{
         this.colunas = colunas;
         _pecas = new Peca[linhas,colunas];
     }
+
+    public Peca GetPeca(int linha, int coluna){
+        return _pecas[linha,coluna];
+    }
 }
