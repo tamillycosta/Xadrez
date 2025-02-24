@@ -18,4 +18,9 @@ class Tabuleiro{
     public Peca GetPeca(int linha, int coluna){
         return _pecas[linha,coluna];
     }
+
+    public void AdicionarPeca(Peca peca, Posicao pos ){
+        _pecas[pos.linha, pos.coluna] = peca; 
+         peca.Posicao = pos;
+    }
 }
