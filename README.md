@@ -2,7 +2,8 @@
 
 ## Sobre o Projeto
 Este projeto consiste em um jogo de xadrez desenvolvido em C# para praticar os conceitos de Programação Orientada a Objetos (POO). O objetivo é criar um jogo funcional, implementando as regras oficiais do xadrez e permitindo partidas entre dois jogadores.
-O projeto foi desenvolvido juntamente ao C# COMPLETO Programação Orientada a Objetos + Projetos - Nelio Alvez
+
+O projeto foi desenvolvido juntamente ao curso **C# COMPLETO Programação Orientada a Objetos + Projetos - Nelio Alvez**
 
 ## Tecnologias Utilizadas
 - **Linguagem**: C#
