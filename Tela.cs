@@ -22,7 +22,7 @@ class Tela{
                 if(tab.GetPeca(i,j) == null){
                      System.Console.Write(  "- " );
                 }else{
-                    System.Console.Write( tab.GetPeca(i,j) + "  ");
+                    System.Console.Write(tab.GetPeca(i,j) + " ");
                 }
                 
         }
