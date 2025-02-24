@@ -1,0 +1,28 @@
+# Binários e compilação
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.csproj.user
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+
+# Configurações específicas de IDEs
+.vscode/
+*.vs
+.idea/
+
+# Dependências de pacotes gerenciados
+packages/
+*.nupkg
+project.lock.json
+.nuget/
+
+# Arquivos temporários e de build
+TestResults/
+*.TestResults/
