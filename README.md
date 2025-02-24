@@ -41,6 +41,13 @@ O projeto foi desenvolvido juntamente ao curso **C# COMPLETO Programação Orien
 
 (imagem retirada dos slides do curso)
 
+
+## Arquitetura Implementada :
+
+![arquitetura](https://github.com/user-attachments/assets/a6fac24f-b4e0-4f88-91a8-a0b02a771bfa)
+
+(imagem retirada dos slides do curso)
+
 ## Próximos Passos
 🔹 Criar um modo contra IA  
 
