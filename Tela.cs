@@ -1,8 +1,8 @@
 namespace Xadrez;
 using Tabuleiro;
+using Tabuleiro.Enums;
 using System;
 class Tela{
-
 
     public int linhas { get; set; }
     public int colunas { get; set; }
@@ -15,19 +15,44 @@ class Tela{
        
     }
 
-
     public static void PrintTela(Tabuleiro tab){
+        int cont = 1;
         for(int i = 0; i < tab.linhas; i++){
+           Console.Write(" " + cont );
+            cont ++;
             for(int j = 0; j < tab.colunas; j++){
+                 
                 if(tab.GetPeca(i,j) == null){
-                     System.Console.Write(  "- " );
+                     Console.Write(  "- " );
                 }else{
-                    System.Console.Write(tab.GetPeca(i,j) + " ");
-                }
-                
+                   printPeca(tab.GetPeca(i,j));
+                                   }
+                    Console.Write(" ");
         }
-         System.Console.WriteLine();
+        Console.WriteLine();
         }
+        Console.WriteLine("  a b c d e f g h");
     }
+    
+    
+    private static void printPeca(Peca peca)
+{
+    ConsoleColor aux = Console.ForegroundColor;
+
+    if (peca.Cor == Cor.Preto)
+    {
+        Console.ForegroundColor = ConsoleColor.DarkBlue;
+    }
+    else
+    {
+        Console.ForegroundColor = aux;
+    }
+
+    Console.Write(peca);
+    Console.ForegroundColor = aux;
+}
+
+       
+        
     
 }

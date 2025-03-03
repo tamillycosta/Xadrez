@@ -2,7 +2,7 @@
 
 
 namespace Xadrez;
-using System;
+
 using Jogo;
 using Tabuleiro;
 using Tabuleiro.Enums;
@@ -13,8 +13,8 @@ class Xadrez{
     static void Main(string[] args){
         Tabuleiro tab = new Tabuleiro(8,8);
         try{
-            tab.AdicionarPeca(new Rei(Cor.Preto, tab), new Posicao(0,0));
-            tab.AdicionarPeca(new Rei(Cor.Preto, tab), new Posicao(0,0));
+            tab.AdicionarPeca(new Rei(Cor.Branco, tab), new Posicao(0,0));
+            tab.AdicionarPeca(new Rei(Cor.Preto, tab), new Posicao(0,1));
             tab.AdicionarPeca(new Torre(Cor.Preto, tab), new Posicao(1,0));
 
              Tela.PrintTela(tab);

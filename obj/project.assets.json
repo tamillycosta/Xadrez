@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/milly/Área de Trabalho/estudosC#/Xadrez/Xadrez.csproj",
+      "projectUniqueName": "/home/milly/Xadrez/Xadrez.csproj",
       "projectName": "Xadrez",
-      "projectPath": "/home/milly/Área de Trabalho/estudosC#/Xadrez/Xadrez.csproj",
+      "projectPath": "/home/milly/Xadrez/Xadrez.csproj",
       "packagesPath": "/home/milly/.nuget/packages/",
-      "outputPath": "/home/milly/Área de Trabalho/estudosC#/Xadrez/obj/",
+      "outputPath": "/home/milly/Xadrez/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/milly/.nuget/NuGet/NuGet.Config"

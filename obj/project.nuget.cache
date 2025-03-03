@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VyvTeSg+NmbY+VjJs9qSA+x3CXX+gEr5Q3Q2dGw8pm4Jpxwq8DTNg3E2ovfIFNSxH0+zscofissjV1EqjrZHfg==",
+  "dgSpecHash": "85u+zt88UfEe8GwPiH1PBjEzku+kWoGf2IULxXOqI+mk8kazE04ILmAaBpu7uENAkfUoKKyeK/7meogMETTS1Q==",
   "success": true,
-  "projectFilePath": "/home/milly/Área de Trabalho/estudosC#/Xadrez/Xadrez.csproj",
+  "projectFilePath": "/home/milly/Xadrez/Xadrez.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

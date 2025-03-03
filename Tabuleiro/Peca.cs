@@ -15,7 +15,7 @@ class Peca{
 
     public Peca(Cor cor, Tabuleiro tabuleiro)
         {
-            Posicao = null;
+            Posicao = new Posicao();
             Cor = cor;
             QuantidadeMovimentos = 0;
             Tabuleiro = tabuleiro;

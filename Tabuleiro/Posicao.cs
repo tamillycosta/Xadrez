@@ -13,6 +13,10 @@ class Posicao
         this.coluna = coluna;
     }
 
+    public Posicao()
+    {
+    }
+
     public override string ToString()
     {
         return linha 
